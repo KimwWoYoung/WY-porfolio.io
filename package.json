@@ -4,7 +4,10 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "predeploy": "npm run build",  
+    "deploy": "gh-pages -d build" 
   },
   "keywords": [
     "portfolio",
@@ -27,5 +30,6 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "0.0.2"
-  }
+  },
+  "homepage": "https://KimwWoYoung.github.io/WY-porfolio.io"
 }
